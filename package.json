@@ -1,6 +1,6 @@
 {
   "name": "createlocalvuerouter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "returns a VueRouter class that clears global variables it polluted in a previous import in Node.js",
   "main": "./distribution/index.js",
   "scripts": {
