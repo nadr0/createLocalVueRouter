@@ -1,11 +1,9 @@
 {
   "name": "createlocalvuerouter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "returns a VueRouter class that clears global variables it polluted in a previous import in Node.js",
-  "main": "./distribution/index.js",
+  "main": "./source/index.js",
   "scripts": {
-    "build": "babel source --out-dir distribution",
-    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,11 +21,6 @@
     "url": "https://github.com/nadr0/createLocalVueRouter/issues"
   },
   "homepage": "https://github.com/nadr0/createLocalVueRouter",
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0"
-  },
   "dependencies": {
     "vue-router": "^3.1.6"
   },
