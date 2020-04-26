@@ -94,7 +94,7 @@ i.g.
 import createLocalVueRouter from 'createlocalvuerouter';
 
 // for this import
-import VueRoute from 'vue-router';
+import VueRouter from 'vue-router';
 
 // The last unit test will fail.
 ```
